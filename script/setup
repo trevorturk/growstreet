@@ -1,0 +1,4 @@
+#!/bin/sh
+
+gem list -i -v '~> 1.1.3' bundler || gem install bundler
+bundle install
