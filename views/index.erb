@@ -57,18 +57,51 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>Grow Street</h1>
-        <p>Foodscaping. Advanced Ecosystems. Organic Urban Farming</p>
+        <p>Foodscaping. Advanced Ecosystems. Organic Urban Farming.</p>
         <p style="display:none"><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
       </div>
 
-      <!-- Example row of columns -->
       <div class="row">
-        <div class="span8">
-          <h2>Mission</h2>
-           <p>Grow Street is focused on the development of backyard and rooftop soil gardens as well as vertical plant installations. We create beautiful edible landscapes accented with medicinal herbs and wildflowers, which, taken together, help deter unwanted pests and allow our clients to grow the highest quality herbs and vegetables. In addition, we offer classes on food preservation and advice on how to expertly prepare the many vegetables your garden will produce. At Grow Street, we are dedicated to creating a local and sustainable organic food supply by bringing the cultivation of food back home.</p>
-          <p style="display:none;"><a class="btn" href="#">View details &raquo;</a></p>
-       </div>
+        <div class="span6">
+          <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                <div class="carousel-caption">
+                  <h4>Foodscaping</h4>
+                  <p>...</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+                <div class="carousel-caption">
+                  <h4>Advanced Ecosystems</h4>
+                  <p>...</p>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+                <div class="carousel-caption">
+                  <h4>Organic Urban Farming</h4>
+                  <p>...</p>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+          </div>
+        </div>
+
         <div class="span4">
+          <h2>Mission</h2>
+           <p>Grow Street is focused on the development of backyard and rooftop soil gardens as well as vertical plant installations.</p>
+           <p>We create beautiful edible landscapes accented with medicinal herbs and wildflowers, which, taken together, help deter unwanted pests and allow our clients to grow the highest quality herbs and vegetables.</p>
+           <p>In addition, we offer classes on food preservation and advice on how to expertly prepare the many vegetables your garden will produce.</p>
+           <p>At Grow Street, we are dedicated to creating a local and sustainable organic food supply by bringing the cultivation of food back home.</p>
+           <p style="display:none;"><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+
+        <div class="span2">
           <h2>Contact us</h2>
           <p><a class="btn" href="mailto:adam@growstreet.org">adam@growstreet.org</a></p>
         </div>
@@ -98,6 +131,12 @@
     <script src="/assets/js/bootstrap-collapse.js"></script>
     <script src="/assets/js/bootstrap-carousel.js"></script>
     <script src="/assets/js/bootstrap-typeahead.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+        $('#myCarousel').carousel({interval:3000});
+      });
+    </script>
 
   </body>
 </html>
