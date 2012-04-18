@@ -39,30 +39,16 @@
         <div class="span6" id="photos">
           <div id="carousel" class="carousel slide">
             <div class="carousel-inner">
-              <div class="item active">
-                <img src="/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
-                <div class="carousel-caption">
-                  <h4>Foodscaping</h4>
-                  <p>...</p>
+
+              <% (1..23).each do |num| %>
+                <div class="item">
+                  <img src="/images/gspics/<%= num %>.jpg" alt="">
                 </div>
-              </div>
-              <div class="item">
-                <img src="/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
-                <div class="carousel-caption">
-                  <h4>Advanced Ecosystems</h4>
-                  <p>...</p>
-                </div>
-              </div>
-              <div class="item">
-                <img src="/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
-                <div class="carousel-caption">
-                  <h4>Organic Urban Farming</h4>
-                  <p>...</p>
-                </div>
-              </div>
+              <% end %>
+
             </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            <a style="display:none" class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a style="display:none" class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
           </div> <!-- /carousel -->
         </div> <!-- /photos -->
 
