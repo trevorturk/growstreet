@@ -132,8 +132,9 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-family:"brandon-grotesque"; "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:100;
+	font-size: 13px;
   line-height: 18px;
   color: #333333;
   background-color: #ffffff;
@@ -322,8 +323,9 @@ a:hover {
 }
 p {
   margin: 0 0 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-family: "brandon-grotesque";
+	font-weight:100px;
+  font-size: 18px;
   line-height: 18px;
 }
 p small {
@@ -332,8 +334,8 @@ p small {
 }
 .lead {
   margin-bottom: 18px;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 25px;
+  font-weight: 100;
   line-height: 27px;
 }
 h1,
@@ -343,8 +345,8 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: inherit;
-  font-weight: bold;
+  font-family:  "brandon-grotesque";
+  font-weight: 100;
   color: inherit;
   text-rendering: optimizelegibility;
 }
@@ -354,7 +356,7 @@ h3 small,
 h4 small,
 h5 small,
 h6 small {
-  font-weight: normal;
+  font-weight: 100;
   color: #999999;
 }
 h1 {
@@ -438,7 +440,7 @@ dd {
   line-height: 18px;
 }
 dt {
-  font-weight: bold;
+  font-weight: 100;
   line-height: 17px;
 }
 dd {
@@ -1015,7 +1017,7 @@ select:focus:required:invalid:focus {
   min-width: 16px;
   height: 18px;
   padding: 4px 5px;
-  font-weight: normal;
+  font-weight: 100px;
   line-height: 18px;
   text-align: center;
   text-shadow: 0 1px 0 #ffffff;
@@ -3917,7 +3919,7 @@ a.thumbnail:hover {
   height: 40px;
   margin-top: -20px;
   font-size: 60px;
-  font-weight: 100;
+  font-weight: 100px;
   line-height: 30px;
   color: #ffffff;
   text-align: center;
@@ -3953,6 +3955,8 @@ a.thumbnail:hover {
   color: #ffffff;
 }
 .hero-unit {
+	font-family: font-family: "brandon-grotesque"; "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:100px;
   padding: 60px;
   margin-bottom: 30px;
   background-color: #eeeeee;
@@ -3961,6 +3965,8 @@ a.thumbnail:hover {
   border-radius: 6px;
 }
 .hero-unit h1 {
+	font-family: font-family: "brandon-grotesque"; "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:100px;
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
@@ -3969,7 +3975,7 @@ a.thumbnail:hover {
 }
 .hero-unit p {
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 100;
   line-height: 27px;
   color: inherit;
 }
